@@ -1,0 +1,37 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/auto.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@1,500&family=Teko:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style_call.css">
+    <title>Заказать звонок</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a class="logo_link" href = "../index.html">АвтоПодбор</a> 
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="box">
+            <h1>Заказать звонок</h1>
+            <form action="../php/call.php" method="post">
+                <div class="input_block">
+                    <input type="text" required placeholder=" " class = "name" name="name">
+                    <label for="">Имя</label>
+                </div>
+                <div class="input_block">
+                    <input type="tel" required placeholder=" " class= "phone" name="phone">
+                    <label for="">Телефон</label>
+                </div>
+                <button type="send">
+                    Заказать
+                </button>
+        </form>      
+    </div>
+</body>
+</html>

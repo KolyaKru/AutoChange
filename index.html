@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/auto.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>АвтоПодбор</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a class="logo_link" href = "index.html">АвтоПодбор</a> 
+                </div>
+                <nav class="nav">
+                    <a class="nav_links" href = "pages/contacts.html">Контакты</a>
+                    <div class="dropdown">
+                        <a onclick="Menu()" class="dropbtn">Услуги<i class="arrow_down"></i></a>
+                        <div id="Menu" class="dropdown-content">
+                          <a class = dropdown-link href="pages/services.html"><i class="arrow_right"></i>Проверка авто</a>
+                          <a class = dropdown-link href="pages/entry.html"><i class="arrow_right"></i>Запись</a>
+                        </div>
+                      </div>
+                    <a class="nav_links" href = "pages/company.html">О компании</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="main__inner">
+                <h1 class="main_text">Покупаете авто с пробегом?</h1>
+                <h2 class="main_subtext">Мы подберём для Вас лучшее предложение на рынке с технической и юридической гарантией</h2>
+            </div>
+            <div class="number__inner">
+                <a class="number" href = "tel:+375445463336">+375 44 5463336 <br></a>
+                <a class="number_btn" href="pages/call.html">Заказать звонок</a>
+            </div>
+        </div>
+    </div> 
+</body>
+<script src="js/menu.js"></script>
+</html>
